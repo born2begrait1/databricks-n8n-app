@@ -1,0 +1,14 @@
+name: sales-chat-n8n
+description: n8n workflow for chatting with sales data
+
+# Specify we're using a custom Docker image
+resources:
+  requests:
+    cpu: "1"
+    memory: "2Gi"
+  limits:
+    cpu: "2"
+    memory: "4Gi"
+
+# Port that n8n will run on
+port: 5678
